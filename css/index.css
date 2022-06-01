@@ -51,7 +51,7 @@ header {
 /* skill */
 .skill {
   padding: 100px 0;
-  background-image: linear-gradient(to right, #eee, #fff),
+  background: linear-gradient(to right, #eee, #fff),
     url(../img/index/pro.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right;

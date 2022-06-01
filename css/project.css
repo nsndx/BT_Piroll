@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  --font1: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 70px;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header ul li {
+  margin-left: 20px;
+}
+
+.header ul li a {
+  font-family: var(--font1);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.header ul li a:hover {
+  color: #10c9c3;
+}
+
+.brackfast {
+  background-color: #f6f6f6;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brackfast .text {
+  width: 50%;
+  padding:0 5% 0 10% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #8d8d8d;
+}
+
+.brackfast .text p:first-child {
+  font-family: var(--font1);
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.brackfast .text p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.brackfast .text p:nth-child(3) {
+  margin-bottom: 40px;
+}
+
+.brackfast .text p:nth-child(4),
+p:nth-child(5) {
+  margin-bottom: 5px;
+}
+
+.brackfast .text b {
+  color: #000;
+}
+.brackfast .img {
+  width: 50%;
+  height: 100%;
+}
+.brackfast .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.control {
+  height: 100px;
+  padding: 0 10%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.control div:first-child {
+  flex: 1;
+}
+
+.control div:nth-child(2) {
+  flex: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+.control div:last-child {
+  flex: 1;
+  text-align: right;
+}
+
+.footer {
+  height: 250px;
+  padding: 0 10%;
+  background-color: #141414;
+  color: #bcbcbc;
+  display: flex;
+  align-items: center;
+}
+
+.footer div {
+  height: 40%;
+}
+
+.footer .footer1 {
+  flex: 5;
+}
+
+.footer .footer1 h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer .footer2 {
+  flex: 3;
+}
+
+.footer .footer3 {
+  flex: 1;
+}
+
+.footer .footer4 {
+  flex: 2;
+}
+
+.footer .footer5 {
+  flex: 1;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+.footer a:hover {
+  color: #10c9c3;
+}

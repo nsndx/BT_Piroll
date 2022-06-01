@@ -1,0 +1,85 @@
+/* header */
+header {
+  position: absolute;
+  width: 100%;
+}
+/* carousel */
+.carousel {
+  background-image: url(../img/index/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.carousel .col {
+  width: 50%;
+  margin-left: auto;
+  padding: 200px 0;
+}
+.carousel .col h3 {
+  font-size: 40px;
+}
+.carousel .col p {
+  font-size: 20px;
+  color: var(--textcolor);
+  margin: 30px 0 60px 0;
+}
+.carousel .col a {
+  display: inline-block;
+  background-color: var(--maincolor);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.carousel .col a:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 5px 1px;
+}
+/* about */
+.about {
+  padding: 100px 0;
+}
+.about .main {
+  margin-top: 20px;
+  text-align: center;
+}
+/* skill */
+.skill {
+  padding: 100px 0;
+  background-image: linear-gradient(to right, #eee, #fff),
+    url(../img/index/pro.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: 55%, auto;
+}
+.skill .title {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto 0 0;
+}
+.skill .title h4 {
+  margin: 40px 0 10px;
+}
+.skill .title .skill75,
+.skill .title .skill90,
+.skill .title .skill65 {
+  height: 4px;
+  background: linear-gradient(to right, var(--maincolor), var(--maincolor)),
+    #aaa;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left, right;
+}
+.skill .title .skill75{
+    background-size: 75%;
+}
+.skill .title .skill90 {
+  background-size: 90%;
+}
+.skill .title .skill65 {
+  background-size: 65%;
+}

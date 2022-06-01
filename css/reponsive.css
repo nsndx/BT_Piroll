@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+  /*---------------- index------------------- */
+  /* header */
+  .header_content .nav {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 45px;
+    background-color: var(--maincolor);
+    display: none;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .header_content .nav a {
+    margin: 0;
+    padding: 10px 30px;
+    border-bottom: 1px solid;
+  }
+  .header_content .nav a:hover {
+    color: #fff;
+  }
+  .header_content button {
+    display: block;
+  }
+  /* carousel */
+  .carousel .col {
+    width: 100%;
+    padding: 150px 0 100px 0;
+  }
+  /* about */
+  .about {
+    padding: 50px 0;
+  }
+  /* skill */
+  .skill {
+    background-image: linear-gradient(
+        to right,
+        rgba(238, 238, 238, 0.9),
+        rgba(238, 238, 238, 0.9)
+      ),
+      url(../img/index/pro.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .skill .title {
+    width: 70%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* header */
+  .header_content .nav {
+    display: block !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /*---------------- index------------------- */
+  /* skill */
+  .skill .title {
+    width: 100%;
+  }
+}

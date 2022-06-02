@@ -61,6 +61,20 @@
   .service .row .col {
     width: 50%;
   }
+  /* process */
+  .process {
+    padding: 50px 0;
+  }
+  .process .main iframe {
+    height: 400px;
+  }
+  /* icons */
+  .icons {
+    padding: 50px 0;
+  }
+  .icons .row .col {
+    width: 50%;
+  }
 }
 
 @media (min-width: 769px) {
@@ -82,6 +96,14 @@
   }
   /* service */
   .service .row .col {
+    width: 100%;
+  }
+  /* process */
+  .process .main iframe {
+    height: 200px;
+  }
+   /* icons */
+  .icons .row .col {
     width: 100%;
   }
 }

@@ -49,6 +49,18 @@
   .skill .title {
     width: 70%;
   }
+  /* number */
+  .number {
+    padding: 50px 0;
+  }
+  .number .row .col {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  /* service */
+  .service .row .col {
+    width: 50%;
+  }
 }
 
 @media (min-width: 769px) {
@@ -62,6 +74,14 @@
   /*---------------- index------------------- */
   /* skill */
   .skill .title {
+    width: 100%;
+  }
+  /* number */
+  .number .row .col {
+    width: 100%;
+  }
+  /* service */
+  .service .row .col {
     width: 100%;
   }
 }

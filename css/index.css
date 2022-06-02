@@ -144,7 +144,7 @@ header {
 }
 @keyframes overlay {
   from {
-    transform: scale(0.5);
+    opacity: 0;
   }
   to {
   }

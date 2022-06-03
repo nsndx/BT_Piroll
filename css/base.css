@@ -31,6 +31,24 @@ body {
 .title p {
   color: var(--textcolor);
 }
+/* btnLink */
+.btnLink {
+  display: inline-block;
+  background-color: var(--maincolor);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.btnLink:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 5px 1px;
+}
 /* header */
 header {
   padding: 30px 0;

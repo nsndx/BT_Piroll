@@ -1,0 +1,63 @@
+/* about_carousel */
+.about_carousel {
+  padding: 100px 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/about/bia.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about_carousel h3,
+.about_carousel p {
+  color: #fff;
+}
+/* number */
+.number {
+  background-color: var(--maincolor);
+  padding: 100px 0;
+  color: #fff;
+}
+.number .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.number .row .col {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.number .row .col i {
+  font-size: 60px;
+}
+.number .row .col .text {
+  margin-left: 20px;
+}
+.number .row .col .text span {
+  font-size: 30px;
+  font-weight: 700;
+}
+/* about_me */
+.about_me {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+  background-image: linear-gradient(to right, #f6f6f6, #eee), url(../img/about/about.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right, left;
+  background-size: 55%, contain;
+}
+.about_me .title {
+  text-align: left;
+  width: 50%;
+  margin: 0 0 0 auto;
+}
+.about_me .title p{
+    margin: 30px 0;
+}
+/* Need a Project */
+.about_need{
+  padding: 100px 0;
+}
+.about_need .main{
+  margin-top: 50px;
+  text-align: center;
+}

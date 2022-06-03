@@ -34,10 +34,11 @@ header {
 /* skill */
 .skill {
   padding: 100px 0;
-  background: linear-gradient(to right, #eee, #fff), url(../img/index/pro.jpg);
+  background-color: #f6f7f9;
+  background-image: linear-gradient(to right, #eee, #f6f7f9), url(../img/index/pro.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right;
-  background-size: 55%, auto;
+  background-size: 55%, contain;
 }
 .skill .title {
   text-align: left;
@@ -255,6 +256,7 @@ header {
 .contact .main .nameEmail{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact .main .nameEmail input{
   width: 47%;

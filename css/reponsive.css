@@ -83,16 +83,51 @@
     font-size: 20px;
   }
   /* contact */
-  .contact{
+  .contact {
     padding: 50px 0;
   }
   /* footer */
-  footer .row .col1, footer .row .col2{
+  footer .row .col1,
+  footer .row .col2 {
     width: 50%;
     margin-bottom: 30px;
   }
-  footer .row .col3, footer .row .col4, footer .row .col5{
+  footer .row .col3,
+  footer .row .col4,
+  footer .row .col5 {
     width: 20%;
+  }
+  /*---------------- about------------------- */
+  /* about_me */
+  .about_me {
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)
+      ),
+      url(../img/about/about.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .about_me .title {
+    width: 100%;
+  }
+  /*---------------- contact------------------- */
+  /* contact_content */
+  .contact_content .row .title,
+  .contact_content .row .main {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact_content .main .nameEmail input {
+    width: 100%;
+  }
+  .contact_content .main input {
+    margin-bottom: 15px;
+  }
+  .contact_content .map iframe {
+    height: 300px;
   }
 }
 
@@ -144,9 +179,6 @@
     margin-bottom: 10px;
   }
   /* contact */
-  .contact .main .nameEmail {
-    display: block;
-  }
   .contact .main .nameEmail input {
     width: 100%;
   }
@@ -155,7 +187,7 @@
     margin-top: 10px;
   }
   /* footer */
-  footer .row .col{
+  footer .row .col {
     width: 100%;
     margin-bottom: 10px;
   }

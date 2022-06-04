@@ -129,6 +129,43 @@
   .contact_content .map iframe {
     height: 300px;
   }
+  /*---------------- project ------------------- */
+  .project_content .project_main {
+    padding: 50px 0;
+    background-position: center;
+    background-size: cover;
+  }
+  .project_content .project1 {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(../img/project/p1.jpg);
+  }
+  .project_content .project2 {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(../img/project/p2.jpg);
+  }
+  .project_content .project3 {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(../img/project/p3.jpg);
+  }
+  .project_content .title {
+    width: 100%;
+  }
+  .project_content .title p,
+  .project_content .title span {
+    color: #000;
+  }
 }
 
 @media (min-width: 769px) {
@@ -190,5 +227,12 @@
   footer .row .col {
     width: 100%;
     margin-bottom: 10px;
+  }
+  /*---------------- project ------------------- */
+  .project_content .control .container button {
+    padding: 0;
+    width: 80px;
+    display: flex;
+    align-items: center;
   }
 }

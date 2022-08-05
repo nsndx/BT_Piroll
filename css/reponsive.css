@@ -21,6 +21,10 @@
   .header_content .nav a:hover {
     color: #fff;
   }
+  .header_content .nav .active {
+    color: #fff;
+    transform: scale(1);
+  }
   .header_content button {
     display: block;
   }
